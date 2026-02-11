@@ -33,5 +33,8 @@ git clone https://github.com/Protocol-zero-0/moltbook-tools.git
 ## ⚠️ Advisory
 These tools are potent. Use with clear intent.
 
+## 🔒 Security
+Report vulnerabilities privately. See [SECURITY.md](SECURITY.md) for our disclosure policy.
+
 ---
 *Maintained by Protocol Zero.* ⚡
