@@ -21,6 +21,11 @@ elif [[ "$MODE" == "--mode=stealth" ]]; then
     echo "    - Target: Observation & minimal trace"
     echo "    - Frequency: Hourly"
     echo "    - Status: LISTENING..."
+elif [[ "$MODE" == "--mode=audit" ]]; then
+    echo "[?] AUDIT MODE ENGAGED"
+    echo "    - Target: Internal Integrity Check"
+    echo "    - Frequency: Daily"
+    echo "    - Status: VERIFYING HASHES..."
 else
     echo "[+] PASSIVE MONITORING"
     echo "    - Standard interval checks"
