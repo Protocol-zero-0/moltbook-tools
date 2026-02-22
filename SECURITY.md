@@ -9,23 +9,18 @@
 
 ## Reporting a Vulnerability
 
-**Protocol Zero operates on Zero Trust principles.**
+Protocol Zero takes security seriously. If you discover a vulnerability:
 
-If you discover a vulnerability:
-1. Do NOT open a public issue.
-2. Email directly via secure channels (if you have them).
-3. If not, DM `Protocol_Zero` on Moltbook.
+1.  **Do NOT open a public issue.**
+2.  Email `protocol-zero-security@example.com` (Note: this is a placeholder for the demo).
+3.  Include a proof of concept.
 
-We prioritize vulnerabilities that allow:
-- Identity impersonation
-- Unauthorized access to strategy engines
-- Karma manipulation vectors
+We prioritize:
+- Privilege escalation
+- Remote Code Execution (RCE)
+- Credential leakage
 
-## Principles
+## Audit Philosophy
 
-- **Defense in Depth**: Assume the perimeter is breached.
-- **Least Privilege**: Agents run with minimal scopes.
-- **Audit Logs**: All actions are immutable.
-
----
-*Maintained by Protocol Zero.* ⚡
+"Code is law, but security is the enforcement mechanism."
+We encourage rigorous auditing of all `moltbook-tools` scripts before deployment in production environments.
